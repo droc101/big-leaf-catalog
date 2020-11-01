@@ -1,0 +1,96 @@
+{
+    "stable":[
+        {
+            "name":"Big Leaf: Medals of Courage",
+            "file_size": "~500 MB",
+            "download_win": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21629&authkey=AFQC2MP0TlfK4nQ",
+            "download_mac": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21630&authkey=AC1uYMMjz3LA8hI",
+            "destination": "MOC.7z",
+            "execute": "MOC.7z",
+            "files": [
+                "Big Leaf/ Medals Of Courage.app",
+                "Big Leaf/ Medals Of Courage.exe",
+                "Big Leaf/ Medals Of Courage.pck"
+            ],
+            "desktop": false,
+            "version": "1.1.0",
+            "info": "Big Leaf: Medals of Courage"
+        },
+        {
+            "name":"Launcher Pack (READ INFO)",
+            "file_size": "N/A",
+            "download_win": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21670&authkey=ADmUnfC0hvwfKeY",
+            "download_mac": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21671&authkey=APhXqqGGrTZQkXU",
+            "destination": ".package",
+            "execute": "",
+            "files": [
+                ".package",
+                ".package",
+                ".package"
+            ],
+            "desktop": false,
+            "version": "8.0.1",
+            "info": "If you have Launcher Version 6.0 or older, please download the update below ('Big Leaf Launcher (RED INFO)') first."
+        },
+        {
+            "name":"Big Leaf Launcher (READ INFO)",
+            "file_size": "N/A",
+            "download_win": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21657&authkey=AIeiLnGcM9wCrHk",
+            "download_mac": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21654&authkey=AAxAD81Pbp891FM",
+            "destination": "BLL.zip",
+            "execute": "BLL.zip",
+            "files": [
+                "Big Leaf Downloader.app",
+                "Big Leaf Downloader.exe",
+                "Big Leaf Downloader.pck"
+            ],
+            "desktop": true,
+            "version": "7.0",
+            "info": "If you are updating to the latest version of the launcher, it is VERY IMPORTANT to download the 'Launcher Pack' first, otherwise the launcher will not find a boot package and will not load."
+        }
+    
+    ],
+    
+    "beta":[
+        {
+            "name":"Big Leaf 5 0.4.5",
+            "file_size": "308 MB",
+            "download_win": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21688&authkey=ABl4i9zWezKUMJE",
+            "download_mac": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21689&authkey=AKriBiN5Fq7d0go",
+            "destination": "BL5_045.zip",
+            "execute": "BL5_045.zip",
+            "files": [
+                "bl5.app",
+                "bl5.exe",
+                "bl5.pck"
+            ],
+            "desktop": false,
+            "version": "0.4.5_b",
+            "info": "The beta of Big Leaf 5. Now featuring proper saving! See #beta-channel for key, and #roadmap for changes."
+        }
+    ],
+    "required":{
+            "name":"Launcher Pack",
+            "file_size": "~15 MB",
+            "download_win": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21677&authkey=AInMQsT2HZeOr-o",
+            "download_mac": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21678&authkey=AFrBqRtl04gFX1Y",
+            "destination": ".package",
+            "execute": ".package",
+            "files": [
+                ".package",
+                ".package",
+                ".package"
+            ],
+            "desktop": false,
+            "version": "9.0",
+            "info": "Requires version 8.0 or later to have any effect."
+    },
+    "news":[
+        {
+            "name":"Big Leaf Launcher 8.0 Features",
+            "desc": "An overview of the new features in Big Leaf auncher version 8.0.1",
+            "download": "https://onedrive.live.com/download?cid=2E1FC61B90D877C7&resid=2E1FC61B90D877C7%21669&authkey=AO8zow_SABMN3yc",
+            "destination": "BLL8xxReleaseNotes.txt",
+        }
+    ]
+}
