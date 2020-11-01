@@ -1,13 +1,40 @@
 <html>
 <head>
-<title>Embedded Listing.JSON Parsing Tool</title>
-<script>
-
-
-</script>
+	<title>Embedded Listing.JSON Parsing Tool</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>        
+                    $.getJSON('https://droc101.github.io/big-leaf-catalog/listing.json', function(data) {
+    
+    console.log = function(what) {
+     //document.body.write(what.toString())
+     $(document.body).append(what.toString()) 
+    }
+    console.log("<p>")
+    console.log("&&&STABLE&&&")
+    for (var i of Object.keys(data.stable)) {
+  //console.log(`${key}: ${value}`);
+  //
+      list_keys(data.stable[i], i)
+}
+                      console.log("&&&BETA&&&")
+    for (var i of Object.keys(data.beta)) {
+  //console.log(`${key}: ${value}`);
+  //
+      list_keys(data.beta[i], i)
+      
+}
+                      console.log("</p>")
+});
+  
+  
+  function list_keys(of, kname) {
+    console.log('&&&NEWKEY&&&');
+    for (var i of Object.keys(of)) {
+  console.log(i + ":" + of[i]);
+      console.log("%%%ENDKEY%%%");
+}
+  }
+  
+	</script>
 </head>
-<body>
-
-</body>
-
+<body></body>
 </html>
